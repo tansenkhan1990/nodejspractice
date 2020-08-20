@@ -51,7 +51,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597753384363</updated>
       <workItem from="1597753385401" duration="6013000" />
-      <workItem from="1597913026811" duration="449000" />
+      <workItem from="1597913026811" duration="1202000" />
     </task>
     <task id="LOCAL-00001" summary="adding the request url">
       <created>1597754735993</created>
@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597913115257</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adding 404 page not found for unauthorized request">
+      <created>1597913612577</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597913612577</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,13 +115,14 @@
     <MESSAGE value="adding middleware into the express" />
     <MESSAGE value="adding new middleware" />
     <MESSAGE value="adding professional router functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding professional router functionality" />
+    <MESSAGE value="adding 404 page not found for unauthorized request" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding 404 page not found for unauthorized request" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2" timestamp="1597913115047">
+    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2" timestamp="1597913612427">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
-    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2/82.27.1838.1053@82.27.1838.1053" timestamp="1597913115047" />
+    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2/82.27.1838.1053@82.27.1838.1053" timestamp="1597913612427" />
     <state x="784" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597756637447">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
@@ -127,9 +135,9 @@
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
     <state x="796" y="228" width="400" height="657" key="Github.UntrackedFilesDialog/82.27.1838.1053@82.27.1838.1053" timestamp="1597754050367" />
-    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1597913117638">
+    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1597913614274">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
-    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/82.27.1838.1053@82.27.1838.1053" timestamp="1597913117638" />
+    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/82.27.1838.1053@82.27.1838.1053" timestamp="1597913614274" />
   </component>
 </project>
