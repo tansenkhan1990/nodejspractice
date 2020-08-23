@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98b05b7c-3a8b-47fa-8e59-395cfdb8c20a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/util/path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/products.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/product.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/util" />
       <recent name="$PROJECT_DIR$/views" />
     </key>
   </component>
@@ -54,7 +57,8 @@
       <updated>1597753384363</updated>
       <workItem from="1597753385401" duration="6013000" />
       <workItem from="1597913026811" duration="7982000" />
-      <workItem from="1597994296375" duration="8114000" />
+      <workItem from="1597994296375" duration="9619000" />
+      <workItem from="1598169929072" duration="644000" />
     </task>
     <task id="LOCAL-00001" summary="adding the request url">
       <created>1597754735993</created>
@@ -161,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598022096331</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="adding model functionality">
+      <created>1598023457406</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1598023457406</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,10 +197,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="adding model functionality" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2" timestamp="1598022096219">
+    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2" timestamp="1598023457298">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
-    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2/82.27.1838.1053@82.27.1838.1053" timestamp="1598022096219" />
+    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2/82.27.1838.1053@82.27.1838.1053" timestamp="1598023457298" />
     <state x="784" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597756637447">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
@@ -202,9 +213,9 @@
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
     <state x="796" y="228" width="400" height="657" key="Github.UntrackedFilesDialog/82.27.1838.1053@82.27.1838.1053" timestamp="1597754050367" />
-    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598022097449">
+    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598023458601">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
-    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/82.27.1838.1053@82.27.1838.1053" timestamp="1598022097449" />
+    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/82.27.1838.1053@82.27.1838.1053" timestamp="1598023458601" />
   </component>
 </project>
