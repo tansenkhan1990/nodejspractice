@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98b05b7c-3a8b-47fa-8e59-395cfdb8c20a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1gGujOCc23bXYU4pSJ1P8OSWsaH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -59,7 +57,7 @@
       <workItem from="1597913026811" duration="7982000" />
       <workItem from="1597994296375" duration="9619000" />
       <workItem from="1598169929072" duration="7919000" />
-      <workItem from="1598255953349" duration="5744000" />
+      <workItem from="1598255953349" duration="6561000" />
     </task>
     <task id="LOCAL-00001" summary="adding the request url">
       <created>1597754735993</created>
@@ -271,14 +269,20 @@
       <option name="project" value="LOCAL" />
       <updated>1598266665305</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="adding userid when save a product">
+      <created>1598279540560</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1598279540560</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding new middleware" />
     <MESSAGE value="adding professional router functionality" />
     <MESSAGE value="adding 404 page not found for unauthorized request" />
     <MESSAGE value="adding route filtering" />
@@ -303,13 +307,14 @@
     <MESSAGE value="add, edit is perfectly working" />
     <MESSAGE value="adding delete functionality while there is a problem of adding the product" />
     <MESSAGE value="fixing the issue of adding the product" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing the issue of adding the product" />
+    <MESSAGE value="adding userid when save a product" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding userid when save a product" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2" timestamp="1598266665198">
+    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2" timestamp="1598279540379">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
-    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2/82.27.1838.1053@82.27.1838.1053" timestamp="1598266665198" />
+    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2/82.27.1838.1053@82.27.1838.1053" timestamp="1598279540379" />
     <state x="784" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597756637447">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
@@ -322,13 +327,17 @@
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
     <state x="796" y="228" width="400" height="657" key="Github.UntrackedFilesDialog/82.27.1838.1053@82.27.1838.1053" timestamp="1597754050367" />
-    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598266666607">
+    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598279543064">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
-    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/82.27.1838.1053@82.27.1838.1053" timestamp="1598266666607" />
+    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/82.27.1838.1053@82.27.1838.1053" timestamp="1598279543064" />
     <state x="786" y="273" width="409" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1598171091277">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
     <state x="786" y="273" width="409" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/82.27.1838.1053@82.27.1838.1053" timestamp="1598171091277" />
+    <state x="782" y="468" width="437" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598279976738">
+      <screen x="82" y="27" width="1838" height="1053" />
+    </state>
+    <state x="782" y="468" width="437" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/82.27.1838.1053@82.27.1838.1053" timestamp="1598279976738" />
   </component>
 </project>
