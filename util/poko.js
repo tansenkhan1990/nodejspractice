@@ -1,1 +1,1 @@
-OvGqzafdxccaG1mR
+mongodb+srv://tansen:pingpong@cluster0.enszq.mongodb.net/shop?retryWrites=true&w=majority

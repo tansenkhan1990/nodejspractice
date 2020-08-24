@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98b05b7c-3a8b-47fa-8e59-395cfdb8c20a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/product.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/database.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util/poko.js" beforeDir="false" afterPath="$PROJECT_DIR$/util/poko.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/edit-product.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/edit-product.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/admin/products.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/products.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +59,7 @@
       <workItem from="1597913026811" duration="7982000" />
       <workItem from="1597994296375" duration="9619000" />
       <workItem from="1598169929072" duration="7919000" />
-      <workItem from="1598255953349" duration="3894000" />
+      <workItem from="1598255953349" duration="4199000" />
     </task>
     <task id="LOCAL-00001" summary="adding the request url">
       <created>1597754735993</created>
@@ -247,14 +243,20 @@
       <option name="project" value="LOCAL" />
       <updated>1598193099199</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="adding the functionality of deleting a product">
+      <created>1598265504121</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1598265504121</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding the request url" />
     <MESSAGE value="adding the form and set route for '/' and 'message'" />
     <MESSAGE value="install expressjs&#10;* npm install --save express&#10;this command add expressjs functionality to our project" />
     <MESSAGE value="adding middleware into the express" />
@@ -279,13 +281,14 @@
     <MESSAGE value="connection with mongodb with atlas" />
     <MESSAGE value="update the connection of database" />
     <MESSAGE value="adding single product detail" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding single product detail" />
+    <MESSAGE value="adding the functionality of deleting a product" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding the functionality of deleting a product" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2" timestamp="1598193099004">
+    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2" timestamp="1598265503773">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
-    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2/82.27.1838.1053@82.27.1838.1053" timestamp="1598193099004" />
+    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2/82.27.1838.1053@82.27.1838.1053" timestamp="1598265503773" />
     <state x="784" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597756637447">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
@@ -298,10 +301,10 @@
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
     <state x="796" y="228" width="400" height="657" key="Github.UntrackedFilesDialog/82.27.1838.1053@82.27.1838.1053" timestamp="1597754050367" />
-    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598193100554">
+    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598265506648">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
-    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/82.27.1838.1053@82.27.1838.1053" timestamp="1598193100554" />
+    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/82.27.1838.1053@82.27.1838.1053" timestamp="1598265506648" />
     <state x="786" y="273" width="409" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1598171091277">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
