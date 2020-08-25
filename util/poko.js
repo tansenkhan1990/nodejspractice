@@ -1,2 +1,1 @@
-mongodb+srv://tansen:pingpong@cluster0.enszq.mongodb.net/shop?retryWrites=true&w=majority
-5f43d256737382ff10b14d18
+mongodb+srv://tansen:pingpong@poko.k0ese.mongodb.net/poko?retryWrites=true&w=majority
