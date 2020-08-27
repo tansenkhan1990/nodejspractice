@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98b05b7c-3a8b-47fa-8e59-395cfdb8c20a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/auth.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/auth/login.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/includes/navigation.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/navigation.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +72,7 @@
       <workItem from="1598387814418" duration="818000" />
       <workItem from="1598445261347" duration="763000" />
       <workItem from="1598515516851" duration="638000" />
-      <workItem from="1598517083087" duration="4070000" />
+      <workItem from="1598517083087" duration="4450000" />
     </task>
     <task id="LOCAL-00001" summary="adding the request url">
       <created>1597754735993</created>
@@ -300,14 +305,20 @@
       <option name="project" value="LOCAL" />
       <updated>1598388159858</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="adding login page">
+      <created>1598537284727</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1598537284727</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding route filtering" />
     <MESSAGE value="serve simpole html file with different file" />
     <MESSAGE value="adding css" />
     <MESSAGE value="adding static css, or external css file" />
@@ -332,7 +343,8 @@
     <MESSAGE value="adding userid when save a product" />
     <MESSAGE value="adding product with userId reference" />
     <MESSAGE value="adding full functionality of product create, update, delete, cart and order functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding full functionality of product create, update, delete, cart and order functionality" />
+    <MESSAGE value="adding login page" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding login page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2" timestamp="1598388159702">
