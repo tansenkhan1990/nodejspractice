@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98b05b7c-3a8b-47fa-8e59-395cfdb8c20a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/views/auth/signup.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/error.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/error.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/includes/navigation.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/navigation.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop/product-detail.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/product-detail.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/shop/product-list.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/shop/product-list.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +79,7 @@
       <workItem from="1598387814418" duration="818000" />
       <workItem from="1598445261347" duration="763000" />
       <workItem from="1598515516851" duration="638000" />
-      <workItem from="1598517083087" duration="9161000" />
+      <workItem from="1598517083087" duration="10957000" />
     </task>
     <task id="LOCAL-00001" summary="adding the request url">
       <created>1597754735993</created>
@@ -347,14 +354,20 @@
       <option name="project" value="LOCAL" />
       <updated>1598541985194</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="adding session logout functionality">
+      <created>1598543302134</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1598543302134</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remove the root directory because doesn't have any use" />
     <MESSAGE value="adding model functionality" />
     <MESSAGE value="fetch data from the file" />
     <MESSAGE value="adding new feature for optional part" />
@@ -379,13 +392,14 @@
     <MESSAGE value="set header cookie with login submit request" />
     <MESSAGE value="save session on browser" />
     <MESSAGE value="save session to the database" />
-    <option name="LAST_COMMIT_MESSAGE" value="save session to the database" />
+    <MESSAGE value="adding session logout functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding session logout functionality" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2" timestamp="1598541985095">
+    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2" timestamp="1598543302055">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
-    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2/82.27.1838.1053@82.27.1838.1053" timestamp="1598541985095" />
+    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2/82.27.1838.1053@82.27.1838.1053" timestamp="1598543302055" />
     <state x="182" y="127" width="1638" height="853" key="DiffContextDialog" timestamp="1598541367685">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
@@ -402,10 +416,10 @@
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
     <state x="796" y="228" width="400" height="657" key="Github.UntrackedFilesDialog/82.27.1838.1053@82.27.1838.1053" timestamp="1597754050367" />
-    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598541986798">
+    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598543303506">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
-    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/82.27.1838.1053@82.27.1838.1053" timestamp="1598541986798" />
+    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/82.27.1838.1053@82.27.1838.1053" timestamp="1598543303506" />
     <state x="696" y="270" width="599" height="573" key="VcsDiffUtil.ChangesDialog" timestamp="1598541221308">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
