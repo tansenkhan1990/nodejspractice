@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="98b05b7c-3a8b-47fa-8e59-395cfdb8c20a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/order.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/order.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/auth/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/auth/login.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +48,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -63,6 +70,7 @@
       <workItem from="1597994296375" duration="9619000" />
       <workItem from="1598169929072" duration="7919000" />
       <workItem from="1598255953349" duration="10711000" />
+      <workItem from="1598599472222" duration="1046000" />
     </task>
     <task id="LOCAL-00001" summary="adding the request url">
       <created>1597754735993</created>
@@ -309,14 +317,20 @@
       <option name="project" value="LOCAL" />
       <updated>1598558364404</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="adding csrf functionality to the all form and app.js&#10;also install csurf library">
+      <created>1598560138422</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1598560138422</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="serve simpole html file with different file" />
     <MESSAGE value="adding css" />
     <MESSAGE value="adding static css, or external css file" />
     <MESSAGE value="passing data through route from one place to other" />
@@ -341,13 +355,14 @@
     <MESSAGE value="adding product with userId reference" />
     <MESSAGE value="adding new branch" />
     <MESSAGE value="route protectation with middleware" />
-    <option name="LAST_COMMIT_MESSAGE" value="route protectation with middleware" />
+    <MESSAGE value="adding csrf functionality to the all form and app.js&#10;also install csurf library" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding csrf functionality to the all form and app.js&#10;also install csurf library" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2" timestamp="1598558364300">
+    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2" timestamp="1598560138350">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
-    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2/82.27.1838.1053@82.27.1838.1053" timestamp="1598558364300" />
+    <state x="540" y="89" width="912" height="935" key="CommitChangelistDialog2/82.27.1838.1053@82.27.1838.1053" timestamp="1598560138350" />
     <state x="784" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597756637447">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
@@ -360,10 +375,10 @@
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
     <state x="796" y="228" width="400" height="657" key="Github.UntrackedFilesDialog/82.27.1838.1053@82.27.1838.1053" timestamp="1597754050367" />
-    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598558369029">
+    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598560139845">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
-    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/82.27.1838.1053@82.27.1838.1053" timestamp="1598558369029" />
+    <state x="596" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/82.27.1838.1053@82.27.1838.1053" timestamp="1598560139845" />
     <state x="786" y="273" width="409" height="573" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1598171091277">
       <screen x="82" y="27" width="1838" height="1053" />
     </state>
